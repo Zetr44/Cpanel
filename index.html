@@ -1,2 +1,39 @@
-# Cpanel
-Idk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Creator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Create Panel</h1>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label for="ram">RAM:</label>
+            <select id="ram">
+                <option value="">Select RAM</option>
+                <option value="1gb">1 GB</option>
+                <option value="2gb">2 GB</option>
+                <option value="3gb">3 GB</option>
+                <option value="4gb">4 GB</option>
+                <option value="5gb">5 GB</option>
+                <option value="6gb">6 GB</option>
+                <option value="7gb">7 GB</option>
+                <option value="8gb">8 GB</option>
+                <option value="9gb">9 GB</option>
+                <option value="10gb">10 GB</option>
+                <option value="unli">Unlimited</option>
+            </select>
+        </div>
+        <button id="createButton">Create</button>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+              </html>
